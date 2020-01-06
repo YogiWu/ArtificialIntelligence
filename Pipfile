@@ -1,6 +1,6 @@
 [[source]]
 name = "pypi"
-url = "https://pypi.douban.com/simple"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
 verify_ssl = true
 
 [dev-packages]
@@ -10,6 +10,9 @@ notebook = "*"
 [packages]
 tsplib95 = "*"
 numpy = "*"
+sklearn = "*"
+python-mnist = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.8"
