@@ -1,3 +1,25 @@
+### HOMEWORK REPORT
+
+---
+
+#### 个人信息
+
+ 姓名 | 学号 
+ :---: | :---:
+ 吴宇杰 | 19215028
+ 
+#### 题目内容
+
+    用图灵机算法判断一个二进制数是否为偶数 
+    
+#### 解题思路
+
+    直接先右移到最右边接受end符号后左移
+    若后两位为异或关系,则为真,否则为假
+    
+#### 实现代码
+
+```python
 #%%
 class NodeEnum():
   accept = 0
@@ -119,5 +141,17 @@ for transfer in transfer_list:
 
 input_list = [StateEnums.beigin, 0, 0, 1, 1, 1, StateEnums.end]
 print(cal_graph.caculate(input_list))
+```
 
-#%%
+#### 测试样例
+
+    输入：
+    0, 0, 1, 1, 1,
+    
+    输出：
+    False(reject state)
+
+#### 总结
+
+    将图灵机转化为计算图进行编程,可以把状态转移变成图的遍历,可比较方便地实现图灵机
+    
