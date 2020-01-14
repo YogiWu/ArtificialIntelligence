@@ -13,6 +13,8 @@ numpy = "*"
 sklearn = "*"
 python-mnist = "*"
 matplotlib = "*"
+torch = "*"
+torchvision = "*"
 
 [requires]
 python_version = "3.8"
